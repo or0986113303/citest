@@ -1,5 +1,5 @@
 import serial
-import numpy as np
+#import numpy as np
 from Model import Arduino
 class Control(object):
     def __init__(self):
