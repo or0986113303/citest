@@ -10,8 +10,8 @@ class LighterTest(unittest.TestCase):
         self.parameter = {"Lighter1Port" : "COM1", "Lighter1BaudRate" : 9600,\
         "Lighter2Port" : "COM2", "Lighter2BaudRate" : 9600,\
         "Lighter3Port" : "COM3", "Lighter3BaudRate" : 9600}
-        self.connectresult = 3
-        self.disconnectresult = 3
+        self.connectresult = 0
+        self.disconnectresult = 0
         self.lighter = Lighter.Control()
     
     def test_as_connect(self):

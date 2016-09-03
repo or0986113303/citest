@@ -7,7 +7,7 @@ class AmmeterTest(unittest.TestCase):
     tags = ['unit']
 
     def setUp(self):
-        self.connectresult = True
+        self.connectresult = False
         self.disconnectresult = True
         self.ammeter = Ammeter.Control()
     
